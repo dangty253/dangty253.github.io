@@ -1,11 +1,6 @@
 <?php
 
-include "config/config.php";
-include "include/function.php";
-spl_autoload_register("loadClass");
-if (!isset($_SESSION)) session_start();
-//$oke = getIndex("oke","");
-//if($oke=="true") echo "<script type='text/javascript'>alert('Đặt chỗ thành công !');</script>";
+
 ?>
 
 <head>
@@ -16,36 +11,6 @@ if (!isset($_SESSION)) session_start();
 <title>Trang chủ....</title>
 </head>
 <body> 
-<table width="100%"  cellspacing="0">
-  <tr>
-    <td colspan="3"><h1>ĐẶT VÉ MÁY BAY</h1></td>
-  </tr>
-  <tr>
-  	<td></td>
-    <td><?php	 include "include/header.php";?></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td width="20%" valign="top"><?php
-    include "include/left.php";
-	?></td>
-    <td width="60%" valign="top" class="mid-box">
-    <?php
-	include "mod.php";
-	?>
-    
-    </td>
-    <td width="20%" valign="top">
-    	<div class="rightBox">
-        </div>
-    
-    </td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+	<p> Hello</p>
 </body>
 </html>
